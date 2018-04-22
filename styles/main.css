@@ -1,34 +1,30 @@
-/* Resetting body */
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-#navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+#jumbotron {
+    height: 100vh;
+    width: 100%;
+    background-color: #dfe6e9;
 }
 
-.navbar-li {
-    float: left;
+.header {
+    font-size: 100px;
 }
 
-.navbar-li a {
-    display: block;
-    color: white;
+.home-nav {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-.navbar-li a:hover {
-    background-color: #111;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.active {
-    background-color: #4CAF50;
+.logo {
+    height: 500px;
+    padding-top: 50px;
 }
